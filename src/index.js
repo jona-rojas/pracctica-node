@@ -7,11 +7,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 import ruta from './v1/routes/1ruta.js';
 import { login, registro } from './controllers/ahut.js';
 import { soloAdmin, soloPublico } from './middlewares/autorisacion.js';
+import {PORT} from './config.js';
 
 //Servidor
 const app = express();
-app.listen(3000)
-console.log('Puerto enlase', 3000)
+app.listen(PORT)
+console.log('Puerto enlase', PORT)
 
 
 //confirm
