@@ -21,6 +21,7 @@
       href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"
     />
     <script src="registro.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -38,30 +39,21 @@
       <p>Hospital Regional de Alta Especialidad de Ixtapaluca.</p>
     </header>
     <div class="container">
-      <div class="block mx-auto my-12 p-8 bg-white w-1/3 border border-gray-200 rounded-lg shadow-lg" style="margin: 10px;">
+      <div
+        class="block mx-auto my-12 p-8 bg-white w-1/3 border border-gray-200 rounded-lg shadow-lg"
+        style="margin: 10px"
+      >
         <div class="form-container">
           <form id="Registrar" class="m-5">
-            <h3 class="title" style="text-align: center; margin: 0px 0px 0px 0px;">Registro</h3>
-            <span class="input-icon" for="email"
-              ><i class="fa fa-user">
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </i></span
+            <h3
+              class="title"
+              style="text-align: center; margin: 0px 0px 0px 0px"
             >
+              Registro
+            </h3>
+            <span class="input-icon" for="email"
+              ><i class="fa fa-user"> </i
+            ></span>
             <input
               id="email"
               class="form-control"
@@ -86,7 +78,7 @@
             <span class="input-icon" for="Nombre"
               ><i class="fa fa-address-card" aria-hidden="true">Nombre</i></span
             >
-           <input
+            <input
               id="Nombre"
               class="form-control"
               type="text"
@@ -94,10 +86,15 @@
               name="Nombre"
             />
             <br />
-            
+
             <div class="col-md-12 text-center">
-              <input type="submit" name="Guardar" class="btn btn-primary  btn-block" value="Registro">
-          </div>
+              <input
+                type="submit"
+                name="Guardar"
+                class="btn btn-primary btn-block"
+                value="Registro"
+              />
+            </div>
             <br />
 
             <p class="error escondido">Error al registar</p>
